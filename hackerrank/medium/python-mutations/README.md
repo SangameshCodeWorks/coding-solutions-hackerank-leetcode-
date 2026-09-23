@@ -1,4 +1,4 @@
-# What's Your Name?
+# Mutations
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -81,21 +81,15 @@ The next line contains an integer $position$, the index location and a string $c
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T16:58:40.035Z  
+**Submitted:** 2026-09-23T17:09:51.238Z  
 
 ```py
+def mutate_string(string, position, character):
+    s = list(string)
+    s[position]=character
+    s_new = "".join(s)
+    return s_new
 
-# Complete the 'print_full_name' function below.
-#
-# The function is expected to return a STRING.
-# The function accepts following parameters:
-#  1. STRING first
-#  2. STRING last
-#
-
-def print_full_name(first, last):
-    # Write your code here
-        print(f"Hello {first} {last}! You just delved into python.")
 
 ```
 
