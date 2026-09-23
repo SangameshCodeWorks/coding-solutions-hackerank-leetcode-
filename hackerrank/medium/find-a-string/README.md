@@ -60,7 +60,7 @@ Here, the range loops over $0$ to $4$. $5$ is excluded.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T17:09:54.502Z  
+**Submitted:** 2026-09-23T17:16:04.678Z  
 
 ```py
 def mutate_string(string, position, character):
