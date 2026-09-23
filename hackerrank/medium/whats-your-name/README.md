@@ -1,4 +1,4 @@
-# String Split and Join
+# What's Your Name?
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -36,15 +36,21 @@ The length of the first and last names are each &le; $10$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T16:55:27.229Z  
+**Submitted:** 2026-09-23T16:58:07.885Z  
 
 ```py
-def split_and_join(line):
-    l = line.split()
-    l1 = "-".join(l)
-    return l1
-    # write your code here
 
+# Complete the 'print_full_name' function below.
+#
+# The function is expected to return a STRING.
+# The function accepts following parameters:
+#  1. STRING first
+#  2. STRING last
+#
+
+def print_full_name(first, last):
+    # Write your code here
+        print(f"Hello {first} {last}! You just delved into python.")
 
 ```
 
