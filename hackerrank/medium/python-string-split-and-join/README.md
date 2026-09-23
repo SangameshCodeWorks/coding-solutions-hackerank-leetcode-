@@ -63,7 +63,7 @@ The one line contains a string consisting of space separated words.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T16:53:35.182Z  
+**Submitted:** 2026-09-23T16:55:25.253Z  
 
 ```py
 def split_and_join(line):
